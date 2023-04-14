@@ -1,0 +1,29 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+body{
+  margin: 0px;
+  font-family: 'Jeju Gothic', sans-serif;
+}
+a {
+  color:black;
+}
+h1 {
+  font-size:30px;
+  text-align: center;
+  border-bottom:1px solid gray;
+  background-color: rgb(218, 236, 254);
+  margin: 0px;
+  padding: 10px;
+}
+#down{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  margin: 0px;
+}
+#down ol{
+  margin:0px;
+  border-right:1px solid gray;
+  padding-top:10px;
+}
+#right{
+  padding: 10px;
+}
