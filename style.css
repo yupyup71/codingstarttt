@@ -1,11 +1,23 @@
 @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
-body{
+html,body{
   margin: 0px;
+  height: 100%;
+}
+body{
   font-family: 'Jeju Gothic', sans-serif;
 }
 a {
-  color:black;
+  color:rgb(69, 166, 245);
 }
+
+#all {
+  margin: 0px;
+  padding:0px;
+  height:100%;
+  display:grid;
+  grid-template-rows: 70px 1fr;
+}
+
 h1 {
   font-size:30px;
   text-align: center;
@@ -18,12 +30,15 @@ h1 {
   display: grid;
   grid-template-columns: 150px 1fr;
   margin: 0px;
+  height: 100%;
 }
 #down ol{
   margin:0px;
-  border-right:1px solid gray;
+  border-right: 1px solid gray;
+  height: 100%-10px;
   padding-top:10px;
 }
 #right{
   padding: 10px;
+  margin: 0px;
 }
